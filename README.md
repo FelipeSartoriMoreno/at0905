@@ -20,7 +20,8 @@ Conversão em Objetos Date: Os valores das datas são convertidos em objetos Dat
 Validação das Datas: Verifica se a primeira data é anterior à segunda para garantir que o cálculo seja válido.
 Cálculo do Intervalo em Milissegundos: Calcula a diferença absoluta em milissegundos entre as duas datas.
 Conversão para Dias: Converte a diferença em milissegundos para dias.
-Exibição na Página: O intervalo em dias é exibido na página dentro de um elemento <p>.
+Exibição na Página: O intervalo em dias é exibido na página dentro de um elemento <p>
+
 3. Exibindo Data Atual
 Funcionalidade:
 Esta função retorna a data e hora atuais no formato específico hora:minuto - dia/mês/ano.
@@ -29,4 +30,4 @@ Detalhes da Implementação:
 Criação do Objeto Date: Utiliza o construtor Date() para criar um objeto contendo a data e hora atuais.
 Extração dos Componentes da Data e Hora: Extrai a hora, minuto, dia, mês e ano do objeto Date.
 Formatação da Data e Hora: Formata esses componentes em uma string seguindo o formato desejado.
-Exibição na Página: A string formatada é exibida na página dentro de um elemento <p>.
+Exibição na Página: A string formatada é exibida na página dentro de um elemento <p>
