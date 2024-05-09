@@ -8,10 +8,11 @@ Obtenção dos Valores das Datas: Utiliza o método getElementById() para acessa
 Conversão em Objetos Date: Os valores das datas são convertidos em objetos Date para possibilitar a comparação.
 Comparação das Datas: Usa operadores de comparação (>, <, ===) para comparar as datas e determinar a relação entre elas.
 Geração da Mensagem: Com base no resultado da comparação, gera uma mensagem indicando qual data é maior, menor ou se são iguais.
-Exibição na Página: A mensagem gerada é exibida na página dentro de um elemento <p>.
+Exibição na Página: A mensagem gerada é exibida na página dentro de um elemento <p>
+
 2. Calculando Intervalo entre Datas
 Funcionalidade:
-Esta função calcula o intervalo em dias entre duas datas inseridas pelo usuário.
+Esta função calcula o intervalo em dias entre duas datas inseridas pelo usuário
 
 Detalhes da Implementação:
 Obtenção dos Valores das Datas: Usa getElementById() para acessar os elementos HTML que contêm as datas inseridas pelo usuário.
