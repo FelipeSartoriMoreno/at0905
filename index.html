@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<!-- Comparando Datas -->
+
 <h1>Comparando Datas</h1>
 
 <label for="data1Comparar">Digite a primeira data:</label>
@@ -20,7 +20,7 @@
 
 <p id="resultadoComparar"></p>
 
-<!-- Calculando Intervalo entre Datas -->
+
 <h1>Calculando Intervalo entre Datas</h1>
 
 <label for="data1Intervalo">Digite a primeira data:</label>
@@ -33,7 +33,7 @@
 
 <p id="resultadoIntervalo"></p>
 
-<!-- Exibindo Data Atual -->
+
 <h1>Data Atual</h1>
 
 <button onclick="exibirDataAtual()">Exibir Data Atual</button>
@@ -41,7 +41,7 @@
 <p id="dataAtual"></p>
 
 <script>
-  // Comparando Datas
+
   function compararDatas() {
     const data1Input = document.getElementById('data1Comparar').value;
     const data2Input = document.getElementById('data2Comparar').value;
@@ -62,13 +62,13 @@
     document.getElementById('resultadoComparar').textContent = resultado;
   }
 
-  // Função para adicionar um dia à data
+
   function adicionarDia(data) {
     const umDiaEmMS = 1000 * 60 * 60 * 24;
     return new Date(data.getTime() + umDiaEmMS);
   }
 
-  // Calculando Intervalo entre Datas
+
   function calcularIntervalo() {
     const data1Input = document.getElementById('data1Intervalo').value;
     const data2Input = document.getElementById('data2Intervalo').value;
@@ -88,7 +88,7 @@
     document.getElementById('resultadoIntervalo').textContent = "Intervalo em dias: " + diffEmDias;
   }
 
-  // Exibindo Data Atual
+ 
   function exibirDataAtual() {
     const dataAtual = new Date();
     const hora = String(dataAtual.getHours()).padStart(2, '0');
